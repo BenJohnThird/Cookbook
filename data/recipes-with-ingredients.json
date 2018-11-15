@@ -135,7 +135,11 @@
         "optional": false
       },
       {
-        "instructions": "Sprinkle with cheese; serve immediately.",
+        "instructions": "Sprinkle with cheese.",
+        "optional": true
+      },
+      {
+        "instructions": "Serve immediately.",
         "optional": false
       }
     ]
@@ -211,7 +215,7 @@
       },
       {
         "instructions": "Serve with your favorite sauce and spaghetti.",
-        "optional": false
+        "optional": true
       }
     ]
   },
