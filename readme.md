@@ -1,13 +1,17 @@
 
-**Crescendo Collective - Frontend Skill Test**
+###### Crescendo Collective - Frontend Skill Test
 
-# Recipe API
+## Recipe API
 
-For this javascript project we've provided an API with two endpoints. With this API, you'll need to create a tool with at least two views – list and detail. You'll also need to handle relations between the two endpoints, creating interface adjustments and actions which relate the data.
+For this javascript project we've provided a recipe API with two endpoints. With this API you'll need to complete the following objectives.
+
+  - Pull the data from the API
+  - Create a list view which includes all the recipes
+  - Create a recipe detail view to display each recipe and highlight the specials
 
 #### Endpoints
-- /recipes-with-ingredients
-- /specials-on-ingredients
+  - Recipes – /recipes-with-ingredients
+  - Specials – /specials-on-ingredients
 
 #### API Schema
 
