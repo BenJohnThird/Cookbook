@@ -23,6 +23,8 @@ For this javascript project we've provided a recipe API with two endpoints. With
     uuid: String
     title: String
     description: String
+    image: String
+    servings: Number
     prepTime: Number
     cookTime: Number
     postDate: Date
@@ -54,12 +56,8 @@ For this javascript project we've provided a recipe API with two endpoints. With
     ingredientId: String
     type: String
     title: String
-    text: String (optional)
     geo: String (optional)
-    promo: String (optional)
-    postDate: Date
-    editDate: Date
-    endDate: Date
+    text: String (optional)
   }
 ]
 ```
