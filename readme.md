@@ -1,21 +1,28 @@
-
 ###### Crescendo Collective - Frontend Skill Test
 
 ## Recipe API
 
 For this javascript project we've provided a recipe API with two endpoints. With this API you'll need to complete the following objectives.
 
-  - Pull the data from the API
-  - Create a list view which includes all the recipes
-  - Create a recipe detail view to display each recipe and highlight the specials
+- Pull the data from the API
+- Create a list view which includes all the recipes
+- Create a recipe detail view to display each recipe
+- Highlight the specials
 
-#### Endpoints
-  - Recipes – /recipes-with-ingredients
-  - Specials – /specials-on-ingredients
+#### Install & Setup
 
-#### API Schema
+This project includes a API server (json-server) for you to use. To install and run, use the commands below:
 
-##### /recipes-with-ingredients
+- `npm i`
+- `npm run start:api`
+
+Once running, you can use the API endpoints listed in the following section from `http://localhost:3000`. More information about querying the server can be found on the [json-server github page](https://github.com/typicode/json-server).
+
+#### Endpoints & Schema
+
+##### `/recipes`
+
+Recipe content
 
 ```
 [
@@ -47,7 +54,9 @@ For this javascript project we've provided a recipe API with two endpoints. With
 ]
 ```
 
-##### /specials-on-ingredients
+##### `/specials`
+
+Specials on ingredients
 
 ```
 [
