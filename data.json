@@ -4,7 +4,11 @@
       "uuid": "e80ea521-4d42-48fe-a7a6-ac8952bc0de4",
       "title": "Queso Brat Scramble",
       "description": "A delicious breakfast, fit for a crowd.",
-      "image": "/img/queso_brat_scramble.jpg",
+      "images": {
+        "full": "/img/queso_brat_scramble.jpg",
+        "medium": "/img/queso_brat_scramble--m.jpg",
+        "small": "/img/queso_brat_scramble--s.jpg"
+      },
       "servings": 5,
       "prepTime": 10,
       "cookTime": 20,
@@ -104,23 +108,19 @@
       ],
       "directions": [
         {
-          "instructions":
-            "Cook brats according to package directions. Cool slightly and halve and slice.",
+          "instructions": "Cook brats according to package directions. Cool slightly and halve and slice.",
           "optional": false
         },
         {
-          "instructions":
-            "In a large skillet, over medium heat, heat 1/2 cup oil in a skillet, add tortilla squares; fry until crisp.",
+          "instructions": "In a large skillet, over medium heat, heat 1/2 cup oil in a skillet, add tortilla squares; fry until crisp.",
           "optional": false
         },
         {
-          "instructions":
-            "With a slotted spoon remove tortilla to a paper-towel lined plate to drain.",
+          "instructions": "With a slotted spoon remove tortilla to a paper-towel lined plate to drain.",
           "optional": false
         },
         {
-          "instructions":
-            "In another skillet, sauté the onion, pepper, jalapeno and garlic in the remaining 1 tablespoon oil.",
+          "instructions": "In another skillet, sauté the onion, pepper, jalapeno and garlic in the remaining 1 tablespoon oil.",
           "optional": false
         },
         {
@@ -128,18 +128,15 @@
           "optional": false
         },
         {
-          "instructions":
-            "In a bowl, combine the eggs, cream, chili powder, salt and hot sauce. ",
+          "instructions": "In a bowl, combine the eggs, cream, chili powder, salt and hot sauce. ",
           "optional": false
         },
         {
-          "instructions":
-            "Pour into skillet; cook, stirring occasionally until set.",
+          "instructions": "Pour into skillet; cook, stirring occasionally until set.",
           "optional": false
         },
         {
-          "instructions":
-            "Add the brats, tomatoes, black beans and tortillas; heat through.",
+          "instructions": "Add the brats, tomatoes, black beans and tortillas; heat through.",
           "optional": false
         },
         {
@@ -156,7 +153,11 @@
       "uuid": "7f8e872d-47a5-44e6-b1ad-7b7cb94f1d30",
       "title": "Italian Meatballs",
       "description": "Quick, easy and authentic.",
-      "image": "/img/italian_meatballs.jpg",
+      "images": {
+        "full": "/img/italian_meatballs.jpg",
+        "medium": "/img/italian_meatballs--m.jpg",
+        "small": "/img/italian_meatballs--s.jpg"
+      },
       "servings": 6,
       "prepTime": 25,
       "cookTime": 20,
@@ -206,23 +207,19 @@
           "optional": false
         },
         {
-          "instructions":
-            "In a large bowl, combine the egg, bread crumbs, grated parmesan cheese, milk and onion.",
+          "instructions": "In a large bowl, combine the egg, bread crumbs, grated parmesan cheese, milk and onion.",
           "optional": false
         },
         {
-          "instructions":
-            "Add sausage to the bread crumb mixture and mix well.",
+          "instructions": "Add sausage to the bread crumb mixture and mix well.",
           "optional": false
         },
         {
-          "instructions":
-            "Shape into 20 meatballs; arrange on a shallow baking pan.",
+          "instructions": "Shape into 20 meatballs; arrange on a shallow baking pan.",
           "optional": false
         },
         {
-          "instructions":
-            "Bake for 20 minutes or until meatballs are cooked through (160°F).",
+          "instructions": "Bake for 20 minutes or until meatballs are cooked through (160°F).",
           "optional": false
         },
         {
@@ -235,7 +232,11 @@
       "uuid": "3555aec3-47e1-44d4-b8f2-607aad5cee69",
       "title": "Kielbasa Skillet",
       "description": "A polish delicacy.",
-      "image": "/img/kielbasa_skillet.jpg",
+      "images": {
+        "full": "/img/kielbasa_skillet.jpg",
+        "medium": "/img/kielbasa_skillet--m.jpg",
+        "small": "/img/kielbasa_skillet--s.jpg"
+      },
       "servings": 8,
       "prepTime": 20,
       "cookTime": 20,
@@ -299,18 +300,15 @@
       ],
       "directions": [
         {
-          "instructions":
-            "In a large skillet, sauté sausage, carrot, and onion in butter until onion is tender.",
+          "instructions": "In a large skillet, sauté sausage, carrot, and onion in butter until onion is tender.",
           "optional": false
         },
         {
-          "instructions":
-            "Add the cabbage, thyme, salt, and pepper. Reduce heat; simmer, covered 14-16 minutes or until cabbage is tender.",
+          "instructions": "Add the cabbage, thyme, salt, and pepper. Reduce heat; simmer, covered 14-16 minutes or until cabbage is tender.",
           "optional": false
         },
         {
-          "instructions":
-            "Meanwhile, heat potatoes according to package directions.",
+          "instructions": "Meanwhile, heat potatoes according to package directions.",
           "optional": false
         },
         {
@@ -323,7 +321,11 @@
       "uuid": "3555aec3-47e1-44d4-b8f2-607aad5cee69",
       "title": "Brussel Chips",
       "description": "Tasty, crispy, spicy and healthy!",
-      "image": "/img/brussel_chips.jpg",
+      "images": {
+        "full": "/img/brussel_chips.jpg",
+        "medium": "/img/brussel_chips--m.jpg",
+        "small": "/img/brussel_chips--s.jpg"
+      },
       "servings": 4,
       "prepTime": 15,
       "cookTime": 25,
@@ -363,8 +365,7 @@
       ],
       "directions": [
         {
-          "instructions":
-            "Place a rack in top position of your oven and preheat to 325 F.",
+          "instructions": "Place a rack in top position of your oven and preheat to 325 F.",
           "optional": false
         },
         {
@@ -372,23 +373,19 @@
           "optional": false
         },
         {
-          "instructions":
-            "Trim the stems of the Brussels sprouts to release outermost leaves, about 5 leaves from each sprout.",
+          "instructions": "Trim the stems of the Brussels sprouts to release outermost leaves, about 5 leaves from each sprout.",
           "optional": false
         },
         {
-          "instructions":
-            "Place leaves in the bowl of sauce; toss with your fingers until all the leaves are evenly coated.",
+          "instructions": "Place leaves in the bowl of sauce; toss with your fingers until all the leaves are evenly coated.",
           "optional": false
         },
         {
-          "instructions":
-            "Spread leaves on the baking sheet in a single layer.",
+          "instructions": "Spread leaves on the baking sheet in a single layer.",
           "optional": false
         },
         {
-          "instructions":
-            "Roast leaves in the preheated oven until wilted and lightly browned, about 15 minutes. Transfer any crispy leaves to a serving plate and continue roasting, removing crispy leaves at 5-minute intervals, until all leaves are crispy, about 10 minutes more.",
+          "instructions": "Roast leaves in the preheated oven until wilted and lightly browned, about 15 minutes. Transfer any crispy leaves to a serving plate and continue roasting, removing crispy leaves at 5-minute intervals, until all leaves are crispy, about 10 minutes more.",
           "optional": false
         }
       ]
@@ -397,7 +394,11 @@
       "uuid": "f8fc88dc-2f89-43fa-b431-00d90eeba521",
       "title": "Pancake Mountain",
       "description": "A giant stack of pancakes to share or to horde.",
-      "image": "/img/pancake_mountain.jpg",
+      "images": {
+        "full": "/img/pancake_mountain.jpg",
+        "medium": "/img/pancake_mountain--m.jpg",
+        "small": "/img/pancake_mountain--s.jpg"
+      },
       "servings": 8,
       "prepTime": 15,
       "cookTime": 20,
@@ -467,18 +468,15 @@
       ],
       "directions": [
         {
-          "instructions":
-            "Combine milk with vinegar in a medium bowl and set aside for 5 minutes to \"sour\".",
+          "instructions": "Combine milk with vinegar in a medium bowl and set aside for 5 minutes to \"sour\".",
           "optional": false
         },
         {
-          "instructions":
-            "Combine flour, sugar, baking powder, baking soda, and salt in a large mixing bowl. Whisk egg and butter into \"soured\" milk. Pour the flour mixture into the wet ingredients and whisk until lumps are gone.",
+          "instructions": "Combine flour, sugar, baking powder, baking soda, and salt in a large mixing bowl. Whisk egg and butter into \"soured\" milk. Pour the flour mixture into the wet ingredients and whisk until lumps are gone.",
           "optional": false
         },
         {
-          "instructions":
-            "Heat a large skillet over medium heat, and coat with cooking spray. Pour 1/4 cupfuls of batter onto the skillet, and cook until bubbles appear on the surface. Flip with a spatula, and cook until browned on the other side.",
+          "instructions": "Heat a large skillet over medium heat, and coat with cooking spray. Pour 1/4 cupfuls of batter onto the skillet, and cook until bubbles appear on the surface. Flip with a spatula, and cook until browned on the other side.",
           "optional": false
         }
       ]
@@ -506,16 +504,14 @@
       "ingredientId": "aa1ff525-4190-4a66-8d12-3f383a752b55",
       "type": "promocode",
       "title": "$1 off Milk",
-      "text":
-        "<p>Use the promocode <b>GETMILK</b> on Peapod and receive $1 off your next gallon!</p>"
+      "text": "<p>Use the promocode <b>GETMILK</b> on Peapod and receive $1 off your next gallon!</p>"
     },
     {
       "uuid": "c6912eeb-f686-482d-8bf4-c118510a4069",
       "ingredientId": "77ae45d7-659b-4cb5-a4ea-07f00e442974",
       "type": "sale",
       "title": "Eriksens Hand Rolled Butter",
-      "text":
-        "<p>Flash this recipe at a Roundy's near you and get 10% off Eriksens Hand Rolled Butter, salted or unsalted.</p>"
+      "text": "<p>Flash this recipe at a Roundy's near you and get 10% off Eriksens Hand Rolled Butter, salted or unsalted.</p>"
     }
   ]
 }
