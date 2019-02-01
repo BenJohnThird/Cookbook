@@ -21,7 +21,7 @@ Once running, you can use the API endpoints listed in the following section from
 
 #### Endpoints & Schema
 
-##### GET `/recipes``
+##### GET `/recipes`
 
 Recipe content
 
