@@ -30,3 +30,12 @@ It helps the application to boost and to load fast.
 Another best practice shown; Is the unsubscription for every ngOnDestroy() to eliminate memory and data leaks.
 
 The Developer coded the application in an efficient for the ease of readabilty for other developers who will read and analyze the code.
+
+# How to run the Angular application? 
+
+(Make sure you have Angular CLI installed)
+
+cd e-fruits-finder
+npm install
+ng serve
+
