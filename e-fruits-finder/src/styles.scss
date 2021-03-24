@@ -1,0 +1,47 @@
+/* You can add global styles to this file, and also import other style files */
+html, body { height: 100%; width: 100%; background-color: white }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+/*
+* Widely used colors
+*/
+
+.bg-first {
+  background-color: #E1E6E2;
+}
+
+.bg-second {
+  background-color: #E6C799;
+}
+
+.bg-third {
+  background-color: #DD9D46;
+}
+
+.bg-forth {
+  background-color: #A44704;
+}
+
+.bg-fifth {
+  background-color: #4D0906;
+}
+
+.first, .bg-first {
+  color: #E1E6E2;
+}
+
+.second, .bg-second {
+  color: #E6C799;
+}
+
+.third {
+  color: #DD9D46;
+}
+
+.forth, .bg-forth {
+  color: #A44704;
+}
+
+.fifth, .bg-fifth {
+  color: #4D0906;
+}

@@ -1,0 +1,53 @@
+.main-container {
+  height: 500px;
+  width: 100%;
+}
+
+.headline-container {
+  width: 40%
+}
+
+.img-container {
+  background-image: url('../../../../assets/img/share-food.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat, repeat;
+  width: 60%;
+}
+
+.headline, .sub-headline {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 48px;
+}
+
+.sub-headline {
+  font-size: 24px;
+}
+
+.search-field {
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid #A44704;
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.search-field::placeholder {
+  color: black;
+}
+
+.search-field:focus {
+  outline: none;
+}
+
+.share-button {
+  padding: 10px;
+  color: white;
+  background-color: #4D0906;
+  font-family: 'Montserrat', sans-serif;
+  border:none;
+  font-size: 18px;
+  cursor: pointer;
+}

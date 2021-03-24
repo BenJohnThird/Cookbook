@@ -1,0 +1,48 @@
+<app-loading></app-loading>
+<ng-container *ngIf="productRecipe">
+  <div class="main-container px-5">
+    <div class="mt-5 d-flex flex-column align-items-center">
+      <div class="headline third">{{productRecipe.title}}</div>
+      <div class="my-4">Updated on {{productRecipe.editDate | date:'MMMM d, y'}}</div>
+      <img class="food-image rounded" src="{{'assets' + productRecipe.images.full}}">
+    </div>
+    <ng-container>
+      <div class="w-50 m-auto pt-4">
+        <div class="details">Description:
+          <span class="third">{{productRecipe.description}}</span>
+        </div>
+        <div class="details">Preparation Time:
+          <span class="third">{{productRecipe.prepTime}} Mins</span>
+        </div>
+        <div class="details">Cooking Time:
+          <span class="third">{{productRecipe.cookTime}} Mins</span>
+        </div>
+        <div class="details">Servings:
+          <span class="third">{{productRecipe.servings}}</span>
+        </div>
+        <div class="details">Ingredients:</div>
+        <ng-container *ngFor="let ingredients of productRecipe.ingredients">
+          <div class="sub-details ml-2"> - {{ingredients | readableIngredients}}</div>
+          <app-ingredient-specials
+            [ingredientId]="ingredients.uuid"
+            [specialsPromo]="specials">
+          </app-ingredient-specials>
+        </ng-container>
+        <div class="details">Direction:</div>
+        <ng-container *ngFor="let direction of productRecipe.directions">
+          <div class="sub-details ml-2"> - {{direction.instructions}}
+            <span *ngIf="direction.optional" class="third"> (Optional)</span>
+          </div>
+        </ng-container>
+      </div>
+    </ng-container>
+    <div class="d-flex align-items-center justify-content-center mt-5">
+      <button type="button" mat-button [routerLink]="['/update-recipe', productRecipe.uuid]">
+        <span class="material-icons">mode_edit</span>
+      </button>
+      <button type="button" class="bg-third" [routerLink]="['/create-recipe']" mat-button>
+        <span class="material-icons">add_box</span>
+      </button>
+    </div>
+  </div>
+</ng-container>

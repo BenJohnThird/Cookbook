@@ -1,0 +1,153 @@
+<app-loading></app-loading>
+<form #recipeForm>
+  <div class="main-container d-flex mt-5">
+    <div class="img-container rounded"></div>
+    <div class="p-5 headline-container">
+      <div class="headline">
+        <span *ngIf="!isUpdateMode">Create</span>
+        <span *ngIf="isUpdateMode">Update</span>
+        and <span class="third">Share.</span>
+      </div>
+      <input
+        [(ngModel)]="recipe.title"
+        required
+        name="title "
+        type="text"
+        class="w-100 search-field mt-5"
+        placeholder="Recipe Name">
+      <textarea
+        [(ngModel)]="recipe.description"
+        required
+        name="description"
+        class="w-100 search-field"
+        placeholder="Description"
+        rows="10" >
+      </textarea>
+      <div class="form-row">
+        <div class="col-4">
+          <input
+            required
+            [(ngModel)]="recipe.prepTime"
+            name="prepTime"
+            type="number"
+            class="w-100 search-field"
+            placeholder="Prep Time">
+        </div>
+        <div class="col-4">
+          <input
+            required
+            [(ngModel)]="recipe.cookTime"
+            name="cookTime"
+            type="number"
+            class="w-100 search-field"
+            placeholder="Cooking Time">
+        </div>
+        <div class="col-4">
+          <input
+            required
+            [(ngModel)]="recipe.servings"
+            name="servings"
+            type="number"
+            class="w-100 search-field"
+            placeholder="Servings">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="d-flex m-5">
+    <div class="w-50">
+      <div class="sub-headline text-center">Ingredients</div>
+      <div class="form-row" *ngFor="let ingredients of recipe.ingredients; let i = index">
+        <div class="col-2">
+          <input
+            [(ngModel)]="ingredients.amount"
+            required
+            name="{{'amount' + i}}"
+            type="number"
+            class="w-100 search-field"
+            placeholder="Amount">
+        </div>
+        <div class="col-4">
+          <input
+            [(ngModel)]="ingredients.measurement"
+            required
+            name="{{'measurement' + i}}"
+            type="text"
+            class="w-100 search-field"
+            placeholder="Measurement">
+        </div>
+        <div class="col-4">
+          <input
+            [(ngModel)]="ingredients.name"
+            required
+            name="{{'ingredientName' + i}}"
+            type="text"
+            class="search-field"
+            placeholder="Name">
+        </div>
+        <div class="col-2 d-flex align-items-center justify-content-center">
+          <button
+            type="button"
+            class="share-button"
+            (click)="removeIngredients(i)"
+            *ngIf="recipe.ingredients.length > 1">
+            <span class="material-icons">delete</span>
+          </button>
+        </div>
+      </div>
+      <button type="button" class="share-button" (click)="addIngredientsRow()">
+        <span class="material-icons">add</span>
+      </button>
+    </div>
+    <div class="w-50">
+      <div class="sub-headline text-center">Directions</div>
+      <div class="form-row" *ngFor="let direction of recipe.directions; let i = index;">
+        <div class="col-3">
+          <div class="form-check search-field">
+            <input
+              [(ngModel)]="direction.optional"
+              required
+              name="{{'directionOptional' + i}}"
+              class="form-check-input"
+              type="checkbox"
+              id="flexCheckDefault">
+            <label for="flexCheckDefault" class="form-check-label">Optional</label>
+          </div>
+        </div>
+        <div class="col-7">
+          <input
+            [(ngModel)]="direction.instructions"
+            required
+            name="{{'instruction' + i}}"
+            type="text"
+            class="w-100 search-field"
+            placeholder="Instructions">
+        </div>
+        <div class="col-2 d-flex align-items-center justify-content-center">
+          <button
+            type="button"
+            class="share-button"
+            (click)="removeDirections(i)"
+            *ngIf="recipe.directions.length > 1">
+            <span class="material-icons">delete</span>
+          </button>
+        </div>
+      </div>
+      <button type="button" class="share-button" (click)="addDirectionRow()">
+        <span class="material-icons">add</span>
+      </button>
+    </div>
+  </div>
+  <div class="text-center">
+    <button
+      type="button"
+      *ngIf="!isUpdateMode"
+      (click)="createRecipe()"
+      class="share-button mt-5">Share your recipe with us</button>
+    <button
+      type="submit"
+      *ngIf="isUpdateMode"
+      (click)="updateRecipe()"
+      class="share-button mt-5">Update our recipe</button>
+  </div>
+</form>

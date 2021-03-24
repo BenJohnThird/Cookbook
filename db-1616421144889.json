@@ -230,7 +230,7 @@
     },
     {
       "uuid": "3555aec3-47e1-44d4-b8f2-607aad5cee67",
-      "title": "Kielbasa Skilletsss",
+      "title": "Kielbasa Skillet",
       "description": "A polish delicacy.",
       "images": {
         "full": "/img/kielbasa_skillet.jpg",
@@ -241,7 +241,7 @@
       "prepTime": 20,
       "cookTime": 20,
       "postDate": "03/12/2018 01:51:12 PM",
-      "editDate": "03/24/2021 11:33:49 AM",
+      "editDate": "03/15/2018 04:14:03 PM",
       "ingredients": [
         {
           "uuid": "3d810ba9-7e4e-48aa-b2e9-7918e38b358d",
@@ -480,122 +480,6 @@
           "optional": false
         }
       ]
-    },
-    {
-      "cookTime": null,
-      "description": "",
-      "directions": [
-        {
-          "instructions": null,
-          "optional": null
-        }
-      ],
-      "editDate": "03/24/2021 11:08:27 AM",
-      "images": {
-        "full": "/img/queso_brat_scramble.jpg",
-        "medium": "/img/queso_brat_scramble--m.jpg",
-        "small": "/img/queso_brat_scramble--s.jpg"
-      },
-      "ingredients": [
-        {
-          "uuid": null,
-          "amount": null,
-          "measurement": null,
-          "name": null
-        }
-      ],
-      "postDate": "03/24/2021 11:08:27 AM",
-      "prepTime": null,
-      "servings": null,
-      "title": "",
-      "uuid": "8b8d864e-ac41-4aab-812d-eca63949f2e4"
-    },
-    {
-      "cookTime": null,
-      "description": "",
-      "directions": [
-        {
-          "instructions": null,
-          "optional": null
-        }
-      ],
-      "editDate": "03/24/2021 11:08:34 AM",
-      "images": {
-        "full": "/img/queso_brat_scramble.jpg",
-        "medium": "/img/queso_brat_scramble--m.jpg",
-        "small": "/img/queso_brat_scramble--s.jpg"
-      },
-      "ingredients": [
-        {
-          "uuid": null,
-          "amount": null,
-          "measurement": null,
-          "name": null
-        }
-      ],
-      "postDate": "03/24/2021 11:08:34 AM",
-      "prepTime": null,
-      "servings": null,
-      "title": "",
-      "uuid": "808ea548-be76-43ab-a572-ecb76585ea0e"
-    },
-    {
-      "cookTime": null,
-      "description": "",
-      "directions": [
-        {
-          "instructions": null,
-          "optional": null
-        }
-      ],
-      "editDate": "03/24/2021 11:08:58 AM",
-      "images": {
-        "full": "/img/queso_brat_scramble.jpg",
-        "medium": "/img/queso_brat_scramble--m.jpg",
-        "small": "/img/queso_brat_scramble--s.jpg"
-      },
-      "ingredients": [
-        {
-          "uuid": null,
-          "amount": null,
-          "measurement": null,
-          "name": null
-        }
-      ],
-      "postDate": "03/24/2021 11:08:58 AM",
-      "prepTime": null,
-      "servings": null,
-      "title": "",
-      "uuid": "c3197447-4d81-4348-a30b-8280e25fb6e2"
-    },
-    {
-      "cookTime": 500,
-      "description": "An exsquiting lov",
-      "directions": [
-        {
-          "instructions": "3211",
-          "optional": true
-        }
-      ],
-      "editDate": "03/24/2021 11:13:33 AM",
-      "images": {
-        "full": "/img/queso_brat_scramble.jpg",
-        "medium": "/img/queso_brat_scramble--m.jpg",
-        "small": "/img/queso_brat_scramble--s.jpg"
-      },
-      "ingredients": [
-        {
-          "uuid": null,
-          "amount": 5,
-          "measurement": "package of salt",
-          "name": "Margarine"
-        }
-      ],
-      "postDate": "03/24/2021 11:13:33 AM",
-      "prepTime": 231,
-      "servings": 10,
-      "title": "Lovish Fish",
-      "uuid": "b17d9ef8-e246-4b4c-b9c1-d72a85af0a73"
     }
   ],
   "specials": [

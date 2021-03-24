@@ -1,0 +1,80 @@
+<app-loading></app-loading>
+<div class="bg-forth mt-5 py-4">
+  <div class="container-fluid py-2 px-5">
+    <div class="d-flex align-items-center justify-content-between mb-5">
+      <div class="headline first text-center">Recipes</div>
+      <input
+        [(ngModel)]="filteredRecipe"
+        (ngModelChange)="searchRecipes()"
+        type="text"
+        class="w-25 search-field"
+        placeholder="Search recipes...">
+    </div>
+    <div class="form-row">
+      <div *ngFor="let recipes of productRecipes" class="mb-3 col-6">
+        <div
+          [routerLink]="['/recipe', recipes.uuid]"
+          [style.background-image]="'url(assets/' + recipes.images.full + ')'"
+          class="food-container rounded d-flex align-items-center justify-content-center">
+          <div class="food-content bg-forth px-2">
+            <div class="food-title first">{{recipes.title}}</div>
+          </div>
+          <div class="food-controls d-flex align-items-center flex-column py-2 third">
+            <div class="material-icons mb-2">favorite_border</div>
+            <div class="material-icons">share</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div *ngIf="!productRecipes || productRecipes.length < 1" class="text-center no-data first">
+      No Recipe Found
+    </div>
+  </div>
+</div>
+
+<div class="headline text-center my-5">
+  Why <span class="third">Cookbook</span> is the best
+</div>
+<div class="d-flex align-items-center justify-content-center">
+  <div class="card text-center" style="width: 18rem;">
+    <img class="card-img-top" src="assets/img/chef.jpeg" alt="Chef">
+    <div class="card-body">
+      <h5 class="card-title third">We have great chefs!</h5>
+      <p class="card-text">
+        Some quick example text to build on the card
+        title and make up the bulk of the card's content.
+      </p>
+    </div>
+  </div>
+  <div class="card text-center mx-3" style="width: 18rem;">
+    <img class="card-img-top" src="assets/img/love.jpeg" alt="Love">
+    <div class="card-body">
+      <h5 class="card-title third">We love food!</h5>
+      <p class="card-text">
+        Some quick example text to build on the card
+        title and make up the bulk of the card's content.
+      </p>
+    </div>
+  </div>
+  <div class="card text-center" style="width: 18rem;">
+    <img class="card-img-top" src="assets/img/recipe.jpeg" alt="Recipe">
+    <div class="card-body">
+      <h5 class="card-title third">We share recipes!</h5>
+      <p class="card-text">
+        Some quick example text to build on the card
+        title and make up the bulk of the card's content.
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="donate-recipe d-flex mt-5">
+  <div class="tag-line w-50 p-5">
+    <div class="headline">
+      Help us Grow by sharing your recipe. <br>
+      <span class="third">Let us continue to inspire people and love food.</span>
+    </div>
+    <button type="button" class="share-button mt-5" [routerLink]="['/create-recipe']">Share your recipe with us</button>
+  </div>
+  <div class="chef-section w-50"></div>
+</div>
