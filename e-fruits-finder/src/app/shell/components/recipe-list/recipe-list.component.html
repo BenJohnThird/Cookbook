@@ -11,7 +11,7 @@
         placeholder="Search recipes...">
     </div>
     <div class="form-row">
-      <div *ngFor="let recipes of productRecipes" class="mb-3 col-6">
+      <div *ngFor="let recipes of productRecipes" class="mb-3 col-6 ut-product-recipes">
         <div
           [routerLink]="['/recipe', recipes.uuid]"
           [style.background-image]="'url(assets/' + recipes.images.full + ')'"

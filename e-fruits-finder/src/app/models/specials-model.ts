@@ -5,6 +5,7 @@ export interface SpecialsModel {
   title: string;
   geo?: string;
   text: string;
+  code?: string;
 }
 
 
