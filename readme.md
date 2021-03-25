@@ -24,10 +24,12 @@ Cookbook is an angular application made to browse, update, create recipes.
 
 # About the Development? 
 
-The Developer used, created, and architeted the application using a Lazy-loading module approach to lessen the chunks of js on load.
-It helps the application to boost and to load fast. 
-
-Another best practice shown; Is the unsubscription for every ngOnDestroy() to eliminate memory and data leaks.
+> The Developer used, created, and architeted the application using a Lazy-loading module approach to lessen the chunks of js on load.
+> It helps the application to boost and to load fast. 
+> Utilized Bootstrap classes
+> Integrated using rxjs and subjects
+> Added a partial unit testing 
+> Another best practice shown; Is the unsubscription for every ngOnDestroy() to eliminate memory and data leaks.
 
 The Developer coded the application in an efficient for the ease of readabilty for other developers who will read and analyze the code.
 
@@ -35,7 +37,7 @@ The Developer coded the application in an efficient for the ease of readabilty f
 
 (Make sure you have Angular CLI installed)
 
-cd e-fruits-finder
-npm install
-ng serve
+> cd e-fruits-finder
+> npm install
+> ng serve
 
