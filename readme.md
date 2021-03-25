@@ -1,73 +1,41 @@
-# Crescendo Collective - Frontend Skill Test
+# About Cookbook
 
-## Goals
+Cookbook is an angular application made to browse, update, create recipes. 
 
-For this javascript project we've provided a recipe API with two endpoints. With this API you'll need to complete the following objectives.
+# Landing Page Screenshots.
 
-- Pull the data from the API
-- Create a list view which includes all the recipes
-- Create a recipe detail view to display each recipe
-- Ingredients with a matching `ingredientId` listed in the specials response should also show the special `title`, `type` and `text` under the ingredient name
-- _Bonus:_ Create a view to add and update recipes or specials. Image upload not required. Both endpoints support GET, POST and PATCH.
+![image](https://user-images.githubusercontent.com/32357037/112251909-10847a80-8c97-11eb-86fa-5dabea7bc219.png)
+![image](https://user-images.githubusercontent.com/32357037/112251995-37db4780-8c97-11eb-8fbb-c09e3d754424.png)
+![image](https://user-images.githubusercontent.com/32357037/112252026-432e7300-8c97-11eb-8300-fe908ab01c89.png)
+![image](https://user-images.githubusercontent.com/32357037/112252039-4a558100-8c97-11eb-8be7-9fa65ae28dee.png)
 
-This project includes a API server (json-server) for you to use. To install and run, use the commands below:
+# Create Recipe Page Screenshot.
 
-- `npm i`
-- `npm run start:api`
+![image](https://user-images.githubusercontent.com/32357037/112252089-62c59b80-8c97-11eb-83f5-381c890319c5.png)
 
-Once running, you can use the API endpoints listed in the following section from `http://localhost:3001`. More information about querying the server can be found on the [json-server github page](https://github.com/typicode/json-server).
+# Update Recipe Page Screenshot. 
 
-#### Endpoints & Schema
+![image](https://user-images.githubusercontent.com/32357037/112252135-796bf280-8c97-11eb-877d-884b598be3b8.png)
 
-##### GET `/recipes`
+# Recipe Display Page Screenshot.
 
-```JSON
-[
-  Recipe {
-    uuid: String
-    title: String
-    description: String
-    images: {
-      full: String
-      medium: String,
-      small: String
-    }
-    servings: Number
-    prepTime: Number
-    cookTime: Number
-    postDate: Date
-    editDate: Date
-    ingredients: [
-      Ingredient {
-        uuid: String
-        amount: Number
-        measurement: String
-        name: String
-      }
-    ]
-    directions: [
-      Direction {
-        instructions: String
-        optional: Boolean
-      }
-    ]
-  }
-]
-```
+![image](https://user-images.githubusercontent.com/32357037/112252167-8a1c6880-8c97-11eb-8764-46029154e9e9.png)
 
-##### GET `/specials`
 
-Specials on ingredients
+# About the Development? 
 
-```json
-[
-  Special {
-    uuid: String
-    ingredientId: String
-    type: String
-    title: String
-    geo: String (optional)
-    text: String (optional)
-  }
-]
-```
+The Developer used, created, and architeted the application using a Lazy-loading module approach to lessen the chunks of js on load.
+It helps the application to boost and to load fast. 
+
+Another best practice shown; Is the unsubscription for every ngOnDestroy() to eliminate memory and data leaks.
+
+The Developer coded the application in an efficient for the ease of readabilty for other developers who will read and analyze the code.
+
+# How to run the Angular application? 
+
+(Make sure you have Angular CLI installed)
+
+cd e-fruits-finder
+npm install
+ng serve
+
