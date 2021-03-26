@@ -30,6 +30,7 @@ Cookbook is an angular application made to browse, update, create recipes.
 * Integrated using rxjs and subjects
 * Added a partial unit testing 
 * Another best practice shown; Is the unsubscription for every ngOnDestroy() to eliminate memory and data leaks.
+* Added a partial unit testing for **Recipe List Component**.
 
 The Developer coded the application in an efficient for the ease of readabilty for other developers who will read and analyze the code.
 
